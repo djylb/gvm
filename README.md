@@ -1,5 +1,10 @@
 # gvm
 
+> **Fork notice**
+> Maintained by [djylb](https://github.com/djylb).
+> This fork focuses on fixing bugs and integrating upstream PRs that haven’t been merged.
+> Original authorship and credits are preserved.
+
 [![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)
 
 By Josh Bussdieker (jbuss, jaja, jbussdieker) while working at [Moovweb](https://www.moovweb.com)
@@ -39,7 +44,7 @@ To install:
 1.  Install gvm:
 
     ```
-    bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+    curl -sSL https://raw.githubusercontent.com/djylb/gvm/master/binscripts/gvm-installer | bash
     ```
 
 Or if you are using zsh just change `bash` with `zsh`
@@ -157,7 +162,6 @@ FreeBSD Requirements
     sudo pkg_add -r bash
     sudo pkg_add -r git
     sudo pkg_add -r mercurial
-    
 
 Vendoring Native Code and Dependencies
 ==================================================
