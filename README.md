@@ -1,9 +1,11 @@
 # gvm
 
 > **Fork notice**
+> 
 > Maintained by [djylb](https://github.com/djylb).
 > This fork focuses on fixing bugs and integrating upstream PRs that haven’t been merged.
-> Original authorship and credits are preserved.
+
+---
 
 [![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)
 
